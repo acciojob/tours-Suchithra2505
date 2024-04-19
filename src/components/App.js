@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Tour from './Tour';
 import Tours from './Tours';
 import Loading from './Loading';
-import './App.css';
+import '../styles/App.css';
 const toursData = [
   {
     "id": "rec6d6T3q5EBIdCfD",
