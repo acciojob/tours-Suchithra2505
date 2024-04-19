@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import Tour from './Tour';
+import Tours from './Tours';
+import Loading from './Loading';
 import './App.css';
 const toursData = [
   {
