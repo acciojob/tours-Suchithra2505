@@ -18,11 +18,11 @@ const Tour = ({ id, name, info, image, price, removeTour }) => {
         </div>
         <p>
         {showInfo ? (info && typeof info === 'string' ? info : '') : (info && typeof info === 'string' ? `${info.substring(0, 200)}...` : '')}
-  <button onClick={toggleInfo}>
+  <button id="tour-item-para-rec6d6T3q5EBIdCfD" onClick={toggleInfo}>
     {showInfo ? 'See Less' : 'Read More'}
   </button>
         </p>
-        <button className="delete-btn" onClick={() => removeTour(id)}>
+        <button id="delete-btn-rec6d6T3q5EBIdCfD" className="delete-btn" onClick={() => removeTour(id)}>
           Not Interested
         </button>
       </footer>
