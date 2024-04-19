@@ -43,7 +43,7 @@ const toursData = [
 
 
 const App = () => {
-  onst [tours, setTours] = useState(toursData);
+  const [tours, setTours] = useState(toursData);
 
   const removeTour = (id) => {
     const updatedTours = tours.filter(tour => tour.id !== id);
