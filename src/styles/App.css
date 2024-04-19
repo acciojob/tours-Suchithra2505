@@ -10,3 +10,52 @@ button{
     justify-content: center;
     align-items: center;
 }
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .tour {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 70%;
+    max-width: 600px;
+  }
+  
+  .tour img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .tour h3 {
+    margin-bottom: 10px;
+  }
+  
+  .tour p {
+    margin-bottom: 15px;
+  }
+  
+  .tour button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .tour button:hover {
+    background-color: #0056b3;
+  }
+  
+  .loading {
+    font-style: italic;
+    color: #777;
+  }
+  
